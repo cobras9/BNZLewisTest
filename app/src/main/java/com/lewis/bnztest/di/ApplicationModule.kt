@@ -21,9 +21,8 @@ object ApplicationModule {
     @Provides
     fun provideSchoolRepository(
         dataStoreService: DataStoreService,
-        ioDispatcher: CoroutineDispatcher
     ): DataStoreRepository {
-        return DataStoreRepositoryImpl(dataStoreService, ioDispatcher)
+        return DataStoreRepositoryImpl(dataStoreService)
     }
 
     @DefaultDispatcher

@@ -2,4 +2,5 @@
     <string name="app_name">BNZTest</string>
     <!-- This would probably be in other property files where all the api keys are stored, but for the sake of testing leaving it here for now-->
     <string name="resource_id">20b7c271-fd5a-4c9e-869b-481a0e2453cd</string>
+    <string name="limit">20</string>
 </resources>
